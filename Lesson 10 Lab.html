@@ -1,0 +1,74 @@
+<head>
+    <title>Lesson 10 Lab</title>
+</head>
+<style>
+body{ 
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 150px 150px 525px;
+    justify-content: center;
+    align-content: center;
+    background-color: grey;
+}
+body > div{
+    border: 3px solid;
+}
+#title{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+#anticipation{
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+#about{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    align-content: center;
+    text-align: center;
+}
+@keyframes rotate{
+    0% {transform: rotateY(0deg);color: white}
+    25% {transform: rotateY(90deg);color: red}
+    50% {transform: rotateY(180deg);color: green}
+    75% {transform: rotateY(270deg);color: blue}
+    100% {transform: rotateY(360deg);color: white}
+}
+#about > img {
+    float: left;
+    width: 300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#about > h1 {
+    font-size: 50px;
+}
+#about > p {
+    font-size: 30px;
+}
+</style>
+<body>
+    <div id="title">
+        <h1>Noah Ponte Web Development Portfolio</h1>
+    </div>
+    <div>
+        <h2 id="anticipation">Coming Soon!</h2>
+    </div>
+    <div id="about">
+        <img src="nponte.jpg" alt="Noah Ponte">
+        <h1>About Noah</h1>
+        <p>Noah holds a BA in Theatre with a Studio Art minor from the University of Florida.</p>
+        <p>Noah currently works as a Lighting Field Service Engineer for the Show Systems Lighting team at Universal Orlando Resort.</p>
+        <p>Noah is currently working on an undergraduate certificate in Information Technology from Penn State University.</p>
+        <p>The works presented in this portfolio are from the IST250 Web Development class.</p>
+    </div>
+</body>
