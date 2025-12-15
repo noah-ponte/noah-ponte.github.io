@@ -1,0 +1,26 @@
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12pt;
+    display: inline-block;
+}
+footer > a{
+    color: red;
+}
+body{
+    text-align: center;
+    align-content: center;
+    background-color: rgb(100,150,200);
+    font-size: 20px;
+}
+ul{
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+img{
+    width: 500px;
+}

@@ -1,0 +1,189 @@
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12pt;
+    display: inline-block;
+}
+footer > a{
+    color: blue;
+}
+img{
+    width: 500px;
+}
+body{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(200,150,0);
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 90px 90px 90px 90px 90px 90px 90px 90px;
+}
+body > div {
+    border: solid 3px;
+}
+#r1{
+    grid-row: 1/2;
+    grid-column: 1/5;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r2{
+    grid-row: 2/3;
+    grid-column: 1/5;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r3{
+    grid-row: 3/4;
+    grid-column: 1/5;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r4c1{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r4c2{
+    grid-row: 4/5;
+    grid-column: 2/3;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r4c3{
+    grid-row: 4/5;
+    grid-column: 3/4;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r4c4{
+    grid-row: 4/5;
+    grid-column: 4/5;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r5c1{
+    grid-row: 5/6;
+    grid-column: 1/2;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r5c2{
+    grid-row: 5/6;
+    grid-column: 2/3;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r5c3{
+    grid-row: 5/6;
+    grid-column: 3/4;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r5c4{
+    grid-row: 5/6;
+    grid-column: 4/5;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r6c1{
+    grid-row: 6/7;
+    grid-column: 1/2;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r6c2{
+    grid-row: 6/7;
+    grid-column: 2/3;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r6c3{
+    grid-row: 6/7;
+    grid-column: 3/4;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r6c4{
+    grid-row: 6/7;
+    grid-column: 4/5;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r7c1{
+    grid-row: 7/8;
+    grid-column: 1/2;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r7c2{
+    grid-row: 7/8;
+    grid-column: 2/3;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r7c3{
+    grid-row: 7/8;
+    grid-column: 3/4;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r7c4{
+    grid-row: 7/8;
+    grid-column: 4/5;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r8c1{
+    grid-row: 8/9;
+    grid-column: 1/2;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r8c2{
+    grid-row: 8/9;
+    grid-column: 2/3;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r8c3{
+    grid-row: 8/9;
+    grid-column: 3/4;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+#r8c4{
+    grid-row: 8/9;
+    grid-column: 4/5;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}

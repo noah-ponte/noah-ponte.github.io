@@ -1,0 +1,33 @@
+#floatleft{
+    float: left;
+    padding-left: 400px;
+}
+#floatright{
+    float: right;
+    padding-right: 400px;
+}
+img{
+    width: 350px;
+}
+body{
+    text-align: center;
+    align-content: center;
+    background-color: grey;
+}
+p > a{
+    color: rgb(50,50,50);
+    font-weight: bold;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12pt;
+    display: inline-block;
+}
+footer > a{
+    color: rgb(50,50,50);
+    font-weight: bold;
+}
